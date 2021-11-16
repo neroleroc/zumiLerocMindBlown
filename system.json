@@ -1,0 +1,74 @@
+{
+    "name" : "mindblown",
+    "title" : "Mind Blown from Izumi",
+    "description": "A System adapted from Tales from the Loop to the new brand Izumi's Campaign",
+    "author" : "Doc Leroc", 
+    "version" : "0.9.13",
+    "miniumumCoreVersion" : "0.7.6",
+    "compatibleCoreVersion" : "0.7.9",
+
+    "esmodules" : [
+        "tftloop.js"
+    ],
+
+    "styles" : [
+       "tftloop.css" 
+    ],
+
+    "packs": [
+
+    ],
+    "languages" : [
+        {
+            "lang": "en",
+            "name": "English",
+            "path": "lang/en.json"
+        },
+        {
+            "lang": "fr",
+            "name": "Français",
+            "path": "lang/fr.json"
+        },
+        {   
+            "lang": "de",
+            "name": "Deutsche",
+            "path": "lang/de.json"
+        },
+        {   
+            "lang": "es",
+            "name": "Español",
+            "path": "lang/es.json"
+        },
+        {   
+            "lang": "pt-BR",
+            "name": "Português (Brasil)",
+            "path": "lang/pt-br.json"
+        },
+        {   
+            "lang": "sv-SE",
+            "name": "Svenska (Sverige)",
+            "path": "lang/sv-SE.json"
+        }
+
+    ],
+
+    "gridDistance": 1,
+    "gridUnits": "meter",
+    "inititive" : "",
+    "url": "https://github.com/DrOgres/tftloop",
+    "manifest": "https://github.com/DrOgres/tftloop/raw/main/system.json",
+    "download": "https://github.com/DrOgres/tftloop/archive/main.zip",
+    "background" : "./img/loop_system.png",
+
+    "media": [
+        {
+          "type": "cover",
+          "url": "https://raw.githubusercontent.com/DrOgres/tftloop/main/img/loop_system.png"
+        },
+        {
+          "type": "screenshot",
+          "url": "https://raw.githubusercontent.com/DrOgres/tftloop/main/img/loop_system.jpg"
+        }
+      ]
+
+}
